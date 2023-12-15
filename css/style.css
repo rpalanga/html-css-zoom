@@ -13,18 +13,33 @@
    /* width: calc(100% / 7 - 12px); */
    
    /* gap: 12px; */
-   max-width: 1000px;
-   margin-left: auto;
-   margin-right: auto;
+   /* max-width: 1000px; */
+
+   /* test */
+   
+  
     
    background-color: black;
 }
 
 .container-imgs{
-    width: calc(100% / 7 - 13px );
+    /* width: calc(100% / 7 - 13px ); */
+   
+    /* test */
     
     gap: 13px;
+    width: 70%;
+
+   margin-left: auto;
+   margin-right: auto;
 
 
+    
+
+
+}
+.user img{
+    width: 100%;
+    height: 100%;
 }
 
