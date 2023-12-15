@@ -14,13 +14,17 @@
    
    /* gap: 12px; */
    max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
     
    background-color: black;
 }
 
 .container-imgs{
-    width: calc(100% / 7 - 12px);
+    width: calc(100% / 7 - 13px );
     
-    gap: 12px;
+    gap: 13px;
+
+
 }
 
