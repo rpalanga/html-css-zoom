@@ -33,6 +33,8 @@
    margin-left: auto;
    margin-right: auto;
 
+   margin-bottom: 5px;
+
 }
 
 .container-imgs:first-child{
@@ -48,3 +50,17 @@
     /* height: 100%; */
 }
 
+/* main-bar */
+
+.main-bar{
+    background-color: #222222;
+}
+
+.container-bar{
+   border: 1px solid red;
+    /* test */
+    
+    padding: 30px;
+
+
+}
