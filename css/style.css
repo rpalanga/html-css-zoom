@@ -5,3 +5,22 @@
 }
 /* regola di reset */
 
+.row{
+    display: flex;
+}
+
+.container{
+   /* width: calc(100% / 7 - 12px); */
+   
+   /* gap: 12px; */
+   max-width: 1000px;
+    
+   background-color: black;
+}
+
+.container-imgs{
+    width: calc(100% / 7 - 12px);
+    
+    gap: 12px;
+}
+
