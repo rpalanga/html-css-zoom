@@ -8,6 +8,75 @@ body{
     font-family: sans-serif;
 }
 
+/* inizio nav-bare*/
+.nav-bar{
+
+    border: 2px solid red;
+    /* test */
+   background-color: black;
+
+   justify-content: flex-end;
+
+
+   
+   padding-top: 0;
+   padding-right: 0;
+   padding-bottom: 10px;
+
+   
+
+}
+.nav-Icons{
+
+    
+    
+    
+    
+
+
+}
+.nav-Icons .spaekers{
+    display: inline-block;
+}
+
+
+
+
+.speakers, .size{
+    display: inline-block;
+
+    padding: 10px;
+
+    background-color: #4A4A4A;
+
+    color:white;
+
+
+
+}
+/* test */
+main{
+    position: relative;
+}
+.position-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+.position-main{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+
+}
+/* fine nav-bar */
+
+
+
 .row{
     display: flex;
 }
