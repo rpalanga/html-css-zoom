@@ -55,21 +55,26 @@ body{
 
 }
 /* test */
-main{
-    position: relative;
-}
-.position-container{
-    position: absolute;
+
+
+.position-nav{
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
     
+
+
+    z-index: 1;
+    
 }
 .position-main{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
+
+    z-index: 1;
 
 
 }
@@ -82,13 +87,7 @@ main{
 }
 
 .container{
-   /* width: calc(100% / 7 - 12px); */
-   
-   /* gap: 12px; */
-   /* max-width: 1000px; */
-
-   /* test */
-   
+ 
   
     
    background-color: black;
@@ -96,9 +95,7 @@ main{
 }
 
 .container-imgs{
-    /* width: calc(100% / 7 - 13px ); */
-   
-    /* test */
+ 
     
     gap: 13px;
     width: 60%;
@@ -107,6 +104,13 @@ main{
    margin-right: auto;
 
    margin-bottom: 5px;
+
+   /* test */
+   
+   
+
+
+   /* overflow: auto; */
 
 }
 
