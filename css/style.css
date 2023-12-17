@@ -80,13 +80,13 @@ body{
 
 
 }
-.icon{
+.icon, .Mic, .Cam{
     text-align: center;
 }
 .fa-share-square-o{
     color: #70C53A;
 }
-.fa-chevron-down{
+.container-bar .chevron{
     font-size: 8px;
 }
 
@@ -127,3 +127,10 @@ padding: 10px;
 
 }
 
+.End-call{
+    background-color: #4A4A4A;
+    
+}
+.quit{
+    color:red;
+}
