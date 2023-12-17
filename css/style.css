@@ -54,13 +54,41 @@
 
 .main-bar{
     background-color: #222222;
+
+    color: white;
+}
+
+.main-bar .container-bar{
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 30px;
+
+
 }
 
 .container-bar{
    border: 1px solid red;
     /* test */
     
-    padding: 30px;
 
 
+}
+
+.Mic .Cam {
+    display: inline-block;
+}
+
+.container-bar .Function .icon{
+    display: inline-block;
+
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-size: 25px;
+
+    
 }
