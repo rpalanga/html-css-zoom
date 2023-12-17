@@ -4,6 +4,9 @@
    box-sizing: border-box; 
 }
 /* regola di reset */
+body{
+    font-family: sans-serif;
+}
 
 .row{
     display: flex;
@@ -20,6 +23,7 @@
   
     
    background-color: black;
+   padding-bottom: 10px;
 }
 
 .container-imgs{
@@ -70,17 +74,38 @@
 }
 
 .container-bar{
-   border: 1px solid red;
+   
     /* test */
     
 
 
 }
-
-.Mic .Cam {
-    display: inline-block;
+.icon{
+    text-align: center;
+}
+.fa-share-square-o{
+    color: #70C53A;
+}
+.fa-chevron-down{
+    font-size: 8px;
 }
 
+.icon .text-icon, .Mic .text-icon, .Cam .text-icon{
+    display: block;
+    padding: 5px;
+
+    font-size: 12px;
+}
+
+.Mic {
+display: inline-block;
+padding: 10px;
+}
+.Cam {
+display: inline-block;
+padding: 10px;
+
+}
 .container-bar .Function .icon{
     display: inline-block;
 
@@ -92,3 +117,13 @@
 
     
 }
+
+.container-bar .Audio-video .Mic, .container-bar .Audio-video .Cam {
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-size: 25px;
+
+}
+
