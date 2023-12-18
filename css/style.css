@@ -139,6 +139,8 @@ body{
 
 }
 .agent{
+    display: flex;
+    
     position: absolute;
 
     bottom: 20px;
@@ -166,9 +168,7 @@ body{
 
 }
 
-.container-bar{
-   
-    /* test */
+
     
 
 
